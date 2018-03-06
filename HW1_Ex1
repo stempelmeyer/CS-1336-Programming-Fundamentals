@@ -1,0 +1,40 @@
+// Author:          Sarah G. Tempelmeyer
+// Course:          CS 1336.003
+// Date:            9/5/2017
+// Assignment:      Lecture Homework #1 Exercise #1
+// Compiler:        Visual C++ Community 
+
+// Description: This program demonstrates how a string
+// value can be printed to the console. 
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   // read out Hello World
+   cout << "Hello World!" << endl;
+
+   // read out C++ Programming is fun!
+   cout << "C++ Programming is fun!\n";
+
+   // read out the value of 2 times 3 is: 6
+   cout << "The value of 2 times 3 is: " << (2 * 3) << endl;
+   
+   // read out a 9x9 rectangle, arrow, and diamond
+      cout << "*********   *       *" << endl;
+      cout << "*       *  ***     * *" << endl;
+      cout << "*       * *****   *   *" << endl;
+      cout << "*       *   *    *     *" << endl;
+      cout << "*       *   *   *       *" << endl;
+      cout << "*       *   *    *     *" << endl;
+      cout << "*       *   *     *   *" << endl;
+      cout << "*       *   *      * *" << endl;
+      cout << "*********   *       *" << endl;
+
+      system("pause");
+
+   return 0;
+} // end function main ()
